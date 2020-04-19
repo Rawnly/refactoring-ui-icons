@@ -1,0 +1,21 @@
+{
+	"name": "refactoring-ui-icons",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next dev",
+		"start": "next start",
+		"build": "next build",
+		"generate-icons": "./bin/index.js --output ./src/components/Icons --src ./icons"
+	},
+	"dependencies": {
+		"lodash": "^4.17.15",
+		"autoprefixer": "^9.7.6",
+		"next": "^9.3.5",
+		"postcss-import": "^12.0.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"tailwindcss": "^1.2.0"
+	}
+}

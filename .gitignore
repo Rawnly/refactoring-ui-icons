@@ -1,0 +1,5 @@
+.DS_Store
+icons
+dist
+.next
+node_modules
